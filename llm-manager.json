@@ -1,0 +1,14 @@
+  {
+    "client_id": "https://digitalfoundryinc.github.io/oauth-clients/llm-manager.json",
+    "client_name": "LLM Manager",
+    "client_uri": "https://chat.digitalfoundry.com",
+    "redirect_uris": [
+      "https://chat.digitalfoundry.com/auth/mcp/web/callback/ai_metrics",
+      "https://chat.digitalfoundry.com/auth/mcp/slack/callback/ai_metrics",
+      "http://localhost:7999/auth/mcp/web/callback/ai_metrics",
+      "http://localhost:7999/auth/mcp/slack/callback/ai_metrics"
+    ],
+    "grant_types": ["authorization_code", "refresh_token"],
+    "response_types": ["code"],
+    "token_endpoint_auth_method": "none"
+  }
