@@ -2,7 +2,7 @@
   "client_id": "https://digitalfoundryinc.github.io/anvil-labs-oauth-clients/llm-manager.json",
   "client_name": "LLM Manager",
   "redirect_uris": [
-    "http://localhost:7999/api/auth/mcp/callback",
+    "http://localhost:7999/api/auth/mcp/callback"
   ],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
